@@ -1,0 +1,78 @@
+.contacts {
+  padding: 25px 0;
+}
+
+.contacts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-container-body__title {
+  font-size: 20px;
+  color: #333;
+  font-family: "Open Sans";
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+
+.contacts-container-body__text {
+  color: #86878b;
+  font-size: 14px;
+}
+
+.contacts-container-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contacts-container-list li {
+  height: 50px;
+  width: 55px;
+  margin: 0 52.5px 0 0;
+}
+.contacts-container-list li:first-child {
+  background: url("../img/Social Media Ic_1.jpg") 0 0 no-repeat;
+}
+.contacts-container-list li:nth-child(2) {
+  background: url("../img/Social Media Ic_2.jpg") 0 0 no-repeat;
+}
+.contacts-container-list li:nth-child(3) {
+  background: url("../img/Social Media Ic_3.jpg") 0 0 no-repeat;
+}
+.contacts-container-list li:nth-child(4) {
+  background: url("../img/Social Media Ic_4.jpg") 0 0 no-repeat;
+}
+.contacts-container-list li:nth-child(5) {
+  background: url("../img/Social Media Ic_5.jpg") 0 0 no-repeat;
+}
+.contacts-container-list li:nth-child(6) {
+  background: url("../img/Social Media Ic_6.jpg") 0 0 no-repeat;
+}
+.contacts-container-list li:last-child {
+  margin: 0;
+  background: url("../img/Social Media Ic_7.jpg") 0 0 no-repeat;
+}
+
+.contacts-container-list__link {
+  position: relative;
+  display: block;
+  background: pink;
+  cursor: pointer;
+}
+.contacts-container-list__link::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0px;
+  left: -10px;
+  right: 0;
+  bottom: -50px;
+}
+
+.link {
+  margin: 50px auto;
+}
