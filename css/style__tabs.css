@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 .tabs {
   background-color: rgb(245, 245, 245);
-  padding: 150px 15px 115px 15px;
+  padding: 150px 15px 125px 15px;
   overflow: hidden;
+}
+
+@media (max-width: 565px) {
+  .tabs{
+    padding: 75px 15px 125px 15px;
+  }
 }
 
 .tabs-container {
@@ -144,12 +150,12 @@
 }
 
 [data-swichtop=true] {
-  top: -200%;
+  top: -300%;
 }
 
 [data-active=true] {
-  -webkit-transition: all 3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   top: 0;
 }
 
@@ -162,10 +168,10 @@
 }
 
 [data-lock=true] {
-  -webkit-transition: all 3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition: all 3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all 4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   opacity: 0;
-  top: 200%;
+  top: 300%;
 }
 
 [data-delete=true] {

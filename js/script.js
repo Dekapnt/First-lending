@@ -44,7 +44,7 @@ function showNewTextBlockForPc(body_1, body_2, body_3, btn_1, btn_2, btn_3) {
 
 			//Работаем с движением активного блока текста
 			body_2.setAttribute('data-lock', 'true');
-			setTimeout(() => {body_2.setAttribute('data-delete', 'true')}, 3000);
+			setTimeout(() => {body_2.setAttribute('data-delete', 'true')}, 4000);
 			body_2.setAttribute('data-active', 'false');
 			body_2.setAttribute('data-swichtop', 'false');
 
@@ -66,7 +66,7 @@ function showNewTextBlockForPc(body_1, body_2, body_3, btn_1, btn_2, btn_3) {
 
 			//Работаем с движением активного блока текста
 			body_3.setAttribute('data-lock', 'true');
-			setTimeout(() => {body_3.setAttribute('data-delete', 'true')}, 3000);
+			setTimeout(() => {body_3.setAttribute('data-delete', 'true')}, 4000);
 			body_3.setAttribute('data-active', 'false');
 			body_3.setAttribute('data-swichtop', 'false');
 
